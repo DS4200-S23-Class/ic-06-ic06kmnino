@@ -1,18 +1,25 @@
-let button = document.getElementById("button");
-let line = document.getElementById("line");
+document.addEventListener("DOMContentLoaded", function() {
+
+
+let button = document.getElementById("button1");
+let line = document.getElementById("bottom-line");
 button.addEventListener("click", function() {
-    line.style.color = "red";
-  });
+    console.log("HIHIHIHIHHIH");
+    line.style.fill = "red";
+});
 
 // add mouseover event listener to the circle on the webpage
 
-let circle = document.getElementById("circle");
+let circle = document.querySelector(".circle");
 
 circle.addEventListener("mouseover", function() {
-    circle.style.backgroundColor = "orange";
+    // change the fill color of the circle to orange
+    circle.style.fill = "orange";
 });
 
 // add mouseout event listener to the circle on the webpage
 circle.addEventListener("mouseout", function() {
-    circle.style.backbgroundColor = "blue";
+    circle.style.fill = "green";
+});
+
 });
