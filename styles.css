@@ -1,0 +1,23 @@
+.frame {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+  }
+  
+  .circle {
+    fill: green;
+  }
+  
+  .bottom-line {
+    fill: blue;
+    stroke-width: 4;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
